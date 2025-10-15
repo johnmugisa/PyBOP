@@ -1,0 +1,7 @@
+shape: (907667, 5)
+columns: ['time [s]', 'current [A]', 'voltage [V]', 'pulse_index', 'other']
+   time [s]  current [A]  voltage [V]  pulse_index other
+7800.354863      0.00028     0.001677            2  None
+7800.452666      0.00028     0.001483            2  None
+7800.552659      0.00028     0.001480            2  None
+Wrote: C:\Users\mugi_jo\New_Pybop\Pybop\data_custom_cell_neg_electrode\overpotentials.parquet
