@@ -21,8 +21,7 @@ Step 5: Convert the overpotential results from JSON to Parquet for efficient sto
 
 # Part two
 
-This part contains an extension of PyBoP to fit multiple pulses across the SOC range with per-pulse updates (soc) and 
-lets users select which pulses to fit.
+This part contains an extension of PyBoP to fit multiple pulses as part of non inversive parameterisation across the entire SOC range with per-pulse updates (soc) and lets users select which pulses to fit.
 
  Outputs include:
  • Plots of measured vs fitted voltage for each selected pulse,
