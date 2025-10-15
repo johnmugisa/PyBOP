@@ -1,8 +1,5 @@
-﻿# Pybop
-# Pybop
-
+This workflow contains two parts: 
 # Part one
-
  This code is a workflow example for pre-processing GITT data (inspired by EP-BOLFI scripts), including:
 
 Step 1: Convert a Parquet file into the pipeline’s JSON format.
