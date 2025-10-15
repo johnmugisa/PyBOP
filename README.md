@@ -1,5 +1,5 @@
 This workflow contains two parts: 
-# Part one
+# Part one of the notebook
  This code is a workflow example for pre-processing GITT data (inspired by EP-BOLFI scripts), including:
 
 Step 1: Convert a Parquet file into the pipeline’s JSON format.
@@ -18,9 +18,9 @@ select_measurement_segments is required, and you should update SCRIPTS/overpoten
 
 Step 5: Convert the overpotential results from JSON to Parquet for efficient storage and analysis.
 
-# Part two
+# Part two in the notebook
 
-The second part extends PyBoP for non-intrusive parameterization. It fits multiple pulses across the SOC range with per-pulse updates, and 
+This part contains an extension of PyBoP to fit multiple pulses across the SOC range with per-pulse updates (soc) and 
 lets users select which pulses to fit.
 
  Outputs include:
