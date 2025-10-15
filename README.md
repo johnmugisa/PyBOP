@@ -1,6 +1,6 @@
 This workflow contains two parts: 
 # Part one of the notebook
- This code is a workflow example for pre-processing GITT data (inspired by EP-BOLFI scripts), including:
+ This code is a workflow example for pre-processing GITT data (inspired by EP-BOLFI scripts).
 
 Step 1: Convert a Parquet file into the pipeline’s JSON format.
 Step 2: Automatically fit an exponential decay to pulse/relax segments to generate OCV points vs SOC (via coulomb counting).
