@@ -1,6 +1,7 @@
 This workflow contains two parts: 
+
 # Part one of the notebook
- This code is a workflow example for pre-processing GITT data (inspired by EP-BOLFI scripts).
+Contains a workflow example for pre-processing GITT data (inspired by EP-BOLFI scripts).
 
 Step 1: Convert a Parquet file into the pipeline’s JSON format.
 Step 2: Automatically fit an exponential decay to pulse/relax segments to generate OCV points vs SOC (via coulomb counting).
@@ -18,7 +19,7 @@ select_measurement_segments is required, and you should update SCRIPTS/overpoten
 
 Step 5: Convert the overpotential results from JSON to Parquet for efficient storage and analysis.
 
-# Part two in the notebook
+# Part two
 
 This part contains an extension of PyBoP to fit multiple pulses across the SOC range with per-pulse updates (soc) and 
 lets users select which pulses to fit.
